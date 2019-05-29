@@ -1,5 +1,5 @@
 ---
--hosts: all
- become: yes
- roles:
-  - user-create
+- hosts: all
+  become: yes
+  roles:
+   - user-create
